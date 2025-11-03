@@ -1,0 +1,49 @@
+.header1{
+  border-bottom: 1px solid var(--border);
+  background: #fff;
+}
+.header2{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 16px;
+  display: grid;
+  grid-template-columns: 40px auto auto;
+  gap: 12px;
+  align-items: center;
+}
+.logo{
+  width: 40px;
+  height: 40px;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+}
+.wiki-titulo{
+  font-weight: 1700;
+  font-size: 1rem; /*tamaño logo Wikipedia*/
+}
+.wiki-subtitulo{
+  font-size: 0.60rem; /*tamaño de subtitulo wikipedia*/
+ 
+}
+.nav1{
+  justify-self: end;
+  display: flex;
+  gap: 12px;
+}
+.nav-link{
+  text-decoration: none;
+  font-size: 1rem; /*tamaño Acceder, Crear una cuenta, Ayuda*/
+}
+.pag-texto-izq{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 24px;
+}
+.subrayado{
+    text-decoration: none;
+}
